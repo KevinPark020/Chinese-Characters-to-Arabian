@@ -56,6 +56,7 @@ class ImageToChineseConverter:
         except FileNotFoundError as te:
             print("올바른 이미지를 불러와주세요.")
 
+
     # opencv가 아닌 이미지 파일을 읽어와 변환
     def imagefile_to_textNum(self, image_filename):
         try:
